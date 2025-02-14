@@ -4,7 +4,7 @@ corners = ["", "", "", ""]
 def evaluateCorners():
     for x in corners:
         if x == "":
-            corner[corners.index(x)] = evaluateCorner(corners.index(x))
+            corners[corners.index(x)] = evaluateCorners(corners.index(x))
     print(corners)
 
 def evaluateCorner(corner):
@@ -19,7 +19,7 @@ def evaluateCorner(corner):
     elif corner == 3:
         index = 2
         row = 2
-    rows[row][index]
+    return rows[row][index]
 
 def rowInp(rowsT):
     rows = rowsT
