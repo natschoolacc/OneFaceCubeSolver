@@ -1,4 +1,4 @@
-# Cube Solver - Python Program
+# OneFaceCubeSolver - Python Program
 
 ## Overview
 
@@ -23,7 +23,7 @@ The program expects a single 3x3 grid of colors for one face of the cube. The fo
 ```python
 Example: w w w
          w w w
-         w w wU
+         w w w
 ```
 
 ### Contributions
