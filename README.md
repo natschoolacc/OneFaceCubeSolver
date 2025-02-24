@@ -30,4 +30,4 @@ Example: w w w
 Feel free to fork this project and contribute to it. Contributions are welcome to improve the accuracy of the cube's corner evaluation or extend the program's functionality.
 
 ### License
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
