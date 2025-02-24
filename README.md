@@ -21,14 +21,13 @@ This Python program generates a possible configuration of a Rubik's Cube  based 
 The program expects a single 3x3 grid of colors for one face of the cube. The format should be a list of lists, like this:
 
 ```python
-[
-    ["r", "w", "g"],
-    ["w", "w", "w"],
-    ["b", "w", "y"]
-]
+Example: w w w
+         w w w
+         w w wU
+```
 
-Contributions
+### Contributions
 Feel free to fork this project and contribute to it. Contributions are welcome to improve the accuracy of the cube's corner evaluation or extend the program's functionality.
 
-License
+### License
 This project is licensed under the MIT License – see the LICENSE file for details.
