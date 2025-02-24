@@ -1,8 +1,8 @@
 import algorithm
 
-print("finds a possible solution to 5 sides of the rubix cube givin only one side:\n")
-print("data should be givin left to right top to bottom")
-print("exemple: w w w\n w w w\n w w w\n")
+print("Finds possible solution to a standered rubix cube givin only one side:\n")
+print("Data should be givin left to right top to bottom:")
+print("Example: w w w\n         w w w\n         w w w\n")
 try:
     askForValues = False
     if askForValues:
@@ -11,7 +11,9 @@ try:
         row3 = str(input("Row 3: ")).split(" ")
         rows = [row1, row2, row3]
     else:
-        rows = [["r", "w", "g"], ["w", "w", "w"], ["b", "w", "y"]]
+        rows = [["r", "w", "g"], 
+               ["w", "w", "w"], 
+               ["b", "w", "y"]]
 
 
 

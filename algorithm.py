@@ -17,7 +17,7 @@ def evaluateCorners():
     for y in cornerData.corners:
         if usedCorners.count(cornerData.corners.index(y)) == 1:
             cornersFull.append(y)
-    print("The Corners of the cube you provided are:\n" + str(cornersFull))
+    print("The Corners of the cube you provided are:\n" + str(cornersFull) + "\n")
 def evaluateCorner(corner):
     index = 0
     row = 0
