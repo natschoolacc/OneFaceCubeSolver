@@ -17,5 +17,6 @@ try:
 
     algorithm.rowInp(rows)
 except ValueError:
-    print()
-    #https://prod.liveshare.vsengsaas.visualstudio.com/join?07E6075E8F43DDE1CF05B5F495AC26E4CAC0
+    # Handle cases where invalid input is provided
+    print("Error: Invalid input! Ensure that you provide three space-separated colors for each row.")
+   
